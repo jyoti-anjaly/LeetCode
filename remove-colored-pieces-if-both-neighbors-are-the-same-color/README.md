@@ -1,3 +1,4 @@
+[Discussion Post (created on 17/9/2021 at 0:45)](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/discuss/1524605/C%2B%2B-Count-Approach)  
 <h2>2038. Remove Colored Pieces if Both Neighbors are the Same Color</h2><h3>Medium</h3><hr><div><p>There are <code>n</code> pieces arranged in a line, and each piece is colored either by <code>'A'</code> or by <code>'B'</code>. You are given a string <code>colors</code> of length <code>n</code> where <code>colors[i]</code> is the color of the <code>i<sup>th</sup></code> piece.</p>
 
 <p>Alice and Bob are playing a game where they take <strong>alternating turns</strong> removing pieces from the line. In this game, Alice moves<strong> first</strong>.</p>
