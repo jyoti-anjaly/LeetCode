@@ -2,7 +2,7 @@ class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
         sort(nums.begin(),nums.end());
-        while(true){
+        for(int i=0;i<nums.size();i++){
             // original*=2;
             int pos=binary_search(nums,original);
             if(nums[pos]!=original) break;
