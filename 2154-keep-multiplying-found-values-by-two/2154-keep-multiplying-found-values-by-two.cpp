@@ -4,25 +4,12 @@ public:
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size();i++){
             // original*=2;
-            int pos=binary_search(nums,original);
-            if(nums[pos]!=original) break;
+            if(nums[i]==original)
                 original*=2;
                 
         }
         return original;
     }
     
-    int binary_search(vector<int>arr, int target)
-    {
-        int left=0;
-        int right=arr.size()-1;
-        while(left<right)
-        {
-            int mid=(left +right)/2;
-            if(arr[mid]==target) return mid;
-            else if(arr[mid]>target) right=mid-1;
-            else left=mid+1;
-        }
-        return left;
-    }
+    
 };
