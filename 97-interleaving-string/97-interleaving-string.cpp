@@ -22,7 +22,7 @@ public:
         dp.resize(101,vector<int>(101,-1));
         if((n1+n2)!=n3)
             return false;
-        return solve(s1,s2,s3,0,0,0,n1-1,n2-1,n3);
+        return solve(s1,s2,s3,0,0,0,n1-1,n2-1,n3-1);
         
     }
 };
